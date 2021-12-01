@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &91988343208066752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 91988343208066754}
+  - component: {fileID: 91988343208066755}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &91988343208066754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91988343208066752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.78843427, y: 0.85878384, z: -84.410645}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &91988343208066755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91988343208066752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a66880895dd33343a53e3e657119ced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuNCredits
+    clip: {fileID: 8300000, guid: d68af7df75c33844e95a6011e0d4f79f, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Intro
+    clip: {fileID: 8300000, guid: 4acb7a7785650954e97838f6a227a206, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Spider
+    clip: {fileID: 8300000, guid: 94a998286b7e38148be3680d29757b3a, type: 3}
+    volume: 0.3
+    loop: 1
+    source: {fileID: 0}
+  - name: BossIntro
+    clip: {fileID: 8300000, guid: 0c1c47aaffed26244a9ef8a042a6dba2, type: 3}
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Boss
+    clip: {fileID: 8300000, guid: e9f32ee4f8aa8b9478e561adc12623b2, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Credits
+    clip: {fileID: 8300000, guid: 47619d6f7d5269e4b997081a8171fbe2, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossDamage
+    clip: {fileID: 8300000, guid: 5a7c8164a1050e445aa49305f2ef25da, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bossdebut
+    clip: {fileID: 8300000, guid: 81f04437f3eca8e4d9f727160a064948, type: 3}
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: BossWin
+    clip: {fileID: 8300000, guid: 16c202a541bad2a489d8532c2c255aff, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 1bb46d4bf9c4b454c80eafda93775a17, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FoodCollect
+    clip: {fileID: 8300000, guid: 55df815b7e7710743aecf86ee0afc46b, type: 3}
+    volume: 0.6
+    loop: 0
+    source: {fileID: 0}
+  - name: Hurt
+    clip: {fileID: 8300000, guid: 655695c75cf8145408d2a379a9813eb2, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
